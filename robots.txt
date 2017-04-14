@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://related-matters.com/sitemap.xml
+Disallow: /ghost/
