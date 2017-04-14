@@ -582,7 +582,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -790,34 +790,6 @@ body.nav-opened .nav {
     margin-right: 6px;
 }
 
-
-/* Create a bouncing scroll-down arrow on homepage with cover image */
-.scroll-down {
-    display: block;
-    position: absolute;
-    z-index: 100;
-    bottom: 45px;
-    left: 50%;
-    margin-left: -16px;
-    width: 34px;
-    height: 34px;
-    font-size: 34px;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255,255,255,0.7);
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    -webkit-animation: bounce 4s 2s infinite;
-    animation: bounce 4s 2s infinite;
-}
-
-/* Stop it bouncing and increase contrast when hovered */
-.scroll-down:hover {
-    color: #fff;
-    -webkit-animation: none;
-    animation: none;
-}
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
@@ -2251,3 +2223,4 @@ body.page-template .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
